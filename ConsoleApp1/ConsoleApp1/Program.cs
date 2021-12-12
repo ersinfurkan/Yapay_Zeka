@@ -19,7 +19,7 @@ namespace ConsoleApp1
             Console.WriteLine("Şehir giriniz: ");
             SEHIR = Console.ReadLine();
 
-            Console.WriteLine("Toplam Doz sayısı: ");
+            Console.WriteLine("Doz sayısı: ");
             DOZ = float.Parse(Console.ReadLine());
 
             Console.WriteLine("Toplam: ");
@@ -49,7 +49,7 @@ namespace ConsoleApp1
             
 
 
-            Console.WriteLine($"\n\nToplam NUFUS: {predictionResult.Score}\n\n");
+            Console.WriteLine($"\n\nPrediction NUFUS: {predictionResult.Score}\n\n");
             Console.WriteLine("=============== End of process, hit any key to finish ===============");
             Console.ReadKey();
         }
